@@ -53,25 +53,25 @@ git lfs pull
 2. In the Command Window, run:
 
    ```matlab
-   removing_stripes_from_images_using_histogram_matching.m
+   removing_stripes_from_images_using_histogram_matching
 
 
 When prompted, enter a valid band number: 1, 2, 3, 4, 5, or 7.
 
 Review the outputs:
 
-- Histogram of the original image
+- Histogram of the original and corrected image
 - Pre- and post-correction histograms for each detector
-- Original vs. corrected images side by side
+- Original vs. corrected images
 - (Optional) Console table of detector gains & biases
 
 ---
 
 ## 📈 Sample Results
 
-| Original ETM+ Band 2            | Corrected ETM+ Band 2           |
+| Original ETM+ Band 2 Image            | Corrected ETM+ Band 2 Image           |
 |:-------------------------------:|:-------------------------------:|
-| ![Original](results/band2_before.png) | ![Corrected](results/band2_after.png) |
+| ![Original](<results/Band 2 Image Before Correction.png>) | ![Corrected](<results/Band 2 Image After Correction.png>) |
 
 ---
 
